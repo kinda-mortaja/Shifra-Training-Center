@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI/UX Fundamentals – Shifra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Shifra Logo" class="logo-icon"/>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Explore</a></li>
+        <li><a href="courses.html" class="nav-link active">Courses</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Notifications"><i class="fa-solid fa-bell"></i></button>
+        <div class="avatar-btn" title="Profile">A</div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <span><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+      <span><a href="courses.html">Courses</a> <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+      <span class="bc-current">UI/UX Fundamentals</span>
+    </div>
+  </div>
+
+  <!-- COURSE DETAIL -->
+  <section class="course-detail section">
+    <div class="container course-detail-inner">
+      <!-- Left Column -->
+      <div class="course-detail-left">
+        <div class="course-detail-thumb">
+          <img src="images/ux-design2.png" alt="UI/UX Course"/>
+        </div>
+
+        <h1 class="course-detail-title">UI/UX Fundamentals</h1>
+        <p class="course-detail-desc">Start your journey in UI and UX design — from research to prototype. Hands-on projects, cutting-edge tools, and expert guidance from industry professionals.</p>
+
+        <!-- Instructor -->
+        <div class="instructor-box">
+          <h3>Instructor</h3>
+          <div class="instructor-profile">
+            <img src="images/team2.png" alt="Ahmed Khalil" class="instructor-avatar"/>
+            <div>
+              <strong>Ahmed Khalil</strong>
+              <p class="instructor-role">Senior Product Designer &middot; 5 years experience</p>
+              <p class="instructor-bio">Ahmed worked with startups and large enterprises to build delightful user experiences. He focuses on research-driven design and user-centered interfaces.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- About course -->
+        <div class="about-course">
+          <h3>About This Course</h3>
+          <p>In this course, you will learn to conduct user research, design clean interfaces, create interactive prototypes, and perform usability tests — all through applied, hands-on exercises.</p>
+        </div>
+
+        <!-- Curriculum -->
+        <div class="curriculum">
+          <h3>Curriculum</h3>
+          <ul class="curriculum-list">
+            <li>
+              <span class="cur-num">1.</span>
+              <span>Introduction &amp; Course Overview</span>
+              <span class="cur-lessons">Preview</span>
+            </li>
+            <li>
+              <span class="cur-num">2.</span>
+              <span>User Research Methods</span>
+              <span class="cur-lessons">4 lectures</span>
+            </li>
+            <li>
+              <span class="cur-num">3.</span>
+              <span>Information Architecture &amp; Wireframing</span>
+              <span class="cur-lessons">5 lectures</span>
+            </li>
+            <li>
+              <span class="cur-num">4.</span>
+              <span>Visual Design &amp; Component Systems</span>
+              <span class="cur-lessons">6 lectures</span>
+            </li>
+            <li>
+              <span class="cur-num">5.</span>
+              <span>Advanced UI Patterns &amp; Interaction Design</span>
+              <span class="cur-lessons">7 lectures</span>
+            </li>
+            <li>
+              <span class="cur-num">6.</span>
+              <span>Prototyping &amp; Usability Testing</span>
+              <span class="cur-lessons">5 lectures</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- What you'll learn -->
+        <div class="what-learn">
+          <h3>What You'll Learn</h3>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> User Experience (UX) Design principles and fundamentals</li>
+            <li><i class="fa-solid fa-check"></i> Designing User Interfaces (UIs) with Figma</li>
+            <li><i class="fa-solid fa-check"></i> Transforming user research into testable interfaces</li>
+            <li><i class="fa-solid fa-check"></i> Building and evaluating interactive prototypes with real users</li>
+          </ul>
+        </div>
+
+        <!-- Reviews -->
+        <div class="reviews-section">
+          <h3>Student Reviews</h3>
+          <div class="review-item">
+            <img src="images/student1.png" alt="Sara K." class="review-avatar"/>
+            <div>
+              <strong>Sara K.</strong>
+              <div class="stars small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <p>This course helped me land my first UX job. Highly recommended for anyone starting out!</p>
+            </div>
+          </div>
+          <div class="review-item">
+            <img src="images/team1.png" alt="Mohammed A." class="review-avatar"/>
+            <div>
+              <strong>Mohammed A.</strong>
+              <div class="stars small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <p>Very well structured and the instructor explains everything in a simple, clear way.</p>
+            </div>
+          </div>
+          <div class="review-item">
+            <img src="images/student3.png" alt="Lina M." class="review-avatar"/>
+            <div>
+              <strong>Lina M.</strong>
+              <div class="stars small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <p>Amazing content! The projects helped me build a real portfolio I'm proud of.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column – Price Card -->
+      <div class="course-price-card">
+        <div class="price-card-inner">
+          <div class="price-tag">Course Price<br/><span class="price-amount">$55</span></div>
+          <div class="course-meta-grid">
+            <div class="meta-item"><i class="fa-solid fa-users"></i><span>12 Students</span></div>
+            <div class="meta-item"><i class="fa-solid fa-clock"></i><span>Duration<br/><strong>8h</strong></span></div>
+            <div class="meta-item"><i class="fa-solid fa-signal"></i><span>Level<br/><strong>Beginner</strong></span></div>
+          </div>
+          <div class="instructor-mini">
+            <img src="images/team2.png" alt="Ahmed Khalil" class="instr-mini-avatar"/>
+            <div>
+              <strong>Ahmed Khalil</strong><br/>
+              <small>Senior Product Designer &middot; 5 years</small>
+            </div>
+          </div>
+          <div class="course-perks">
+            <span><i class="fa-solid fa-medal"></i> Certificate</span>
+            <span><i class="fa-solid fa-folder"></i> Projects</span>
+            <span><i class="fa-solid fa-infinity"></i> Lifetime</span>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-full">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to start your learning journey?</h2>
+        <p>Join hundreds of students already growing their skills with Shifra.</p>
+      </div>
+      <a href="courses.html" class="btn btn-white">Browse All Courses <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Shifra Logo" class="footer-logo"/>
+        <p>Empowering learners across the Arab world with quality digital education.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-envelope"></i> info@shifra.com</p>
+        <p><i class="fa-solid fa-phone"></i> +972 59 000 0000</p>
+        <p><i class="fa-solid fa-location-dot"></i> Palestine, West Bank</p>
+      </div>
+      <div class="footer-social-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"/></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="#" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram"/></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Shifra Training Center – All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

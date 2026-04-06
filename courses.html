@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses – Shifra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Shifra Logo" class="logo-icon"/>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Explore</a></li>
+        <li><a href="courses.html" class="nav-link active">Courses</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Notifications"><i class="fa-solid fa-bell"></i></button>
+        <div class="avatar-btn" title="Profile">A</div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- COURSES HERO BANNER -->
+  <section class="courses-hero">
+    <div class="courses-hero-overlay"></div>
+    <img src="images/feature2.png" alt="Courses Banner" class="courses-hero-img"/>
+    <div class="container courses-hero-content">
+      <span class="section-badge light">All Courses</span>
+      <p class="courses-hero-text">Learn from top experts and take your skills to the next level with our featured courses across design, marketing, cybersecurity, web development, and more!</p>
+      <a href="#all-courses" class="btn btn-primary courses-search-btn">
+        Browse Courses <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- CATEGORY FILTER TABS -->
+  <section class="filter-tabs" id="all-courses">
+    <div class="container">
+      <div class="tabs-wrapper">
+        <button class="tab-btn active" data-cat="all">All Courses</button>
+        <button class="tab-btn" data-cat="design">Design</button>
+        <button class="tab-btn" data-cat="marketing">Marketing</button>
+        <button class="tab-btn" data-cat="webdev">Web Dev</button>
+        <button class="tab-btn" data-cat="cybersec">Cyber Security</button>
+        <button class="tab-btn" data-cat="content">Content Writing</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGN COURSES -->
+  <section class="section cat-section" data-cat="design">
+    <div class="container">
+      <div class="cat-header">
+        <h2 class="cat-title"><em>D</em>esign Courses</h2>
+        <a href="#" class="see-all">See all <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+      </div>
+      <div class="courses-row">
+        <div class="course-tile">
+          <img src="images/ux-design.png" alt="UI/UX Fundamentals"/>
+          <div class="tile-info">
+            <h4>UI/UX Fundamentals</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$55</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img2.png" alt="Motion Graphics"/>
+          <div class="tile-info">
+            <h4>Motion Graphics</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$45</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img3.png" alt="Graphic Design"/>
+          <div class="tile-info">
+            <h4>Graphic Design</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$40</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img4.png" alt="Video Editing"/>
+          <div class="tile-info">
+            <h4>Video Editing</h4>
+            <div class="tile-stars">★★★★☆</div>
+            <span class="tile-price">$50</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKETING COURSES -->
+  <section class="section cat-section" data-cat="marketing">
+    <div class="container">
+      <div class="cat-header">
+        <h2 class="cat-title"><em>M</em>arketing Courses</h2>
+        <a href="#" class="see-all">See all <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+      </div>
+      <div class="courses-row">
+        <div class="course-tile">
+          <img src="images/img5.png" alt="Digital Marketing"/>
+          <div class="tile-info">
+            <h4>Digital Marketing</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$60</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img6.png" alt="Social Media Marketing"/>
+          <div class="tile-info">
+            <h4>Social Media Marketing</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$55</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img7.png" alt="Content Marketing"/>
+          <div class="tile-info">
+            <h4>Content Marketing</h4>
+            <div class="tile-stars">★★★★☆</div>
+            <span class="tile-price">$45</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img8.png" alt="Google Ads & Analytics"/>
+          <div class="tile-info">
+            <h4>Google Ads &amp; Analytics</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$65</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEB DEVELOPMENT COURSES -->
+  <section class="section cat-section" data-cat="webdev">
+    <div class="container">
+      <div class="cat-header">
+        <h2 class="cat-title"><em>W</em>eb Development</h2>
+        <a href="#" class="see-all">See all <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+      </div>
+      <div class="courses-row">
+        <div class="course-tile">
+          <img src="images/img9.png" alt="React Essential"/>
+          <div class="tile-info">
+            <h4>React Essentials</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$70</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img11.png" alt="Full Stack Development"/>
+          <div class="tile-info">
+            <h4>Full Stack Development</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$90</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img12.png" alt="Database Management"/>
+          <div class="tile-info">
+            <h4>Database Management</h4>
+            <div class="tile-stars">★★★★☆</div>
+            <span class="tile-price">$55</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img14.png" alt="Back-End Development"/>
+          <div class="tile-info">
+            <h4>Back-End Development</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$80</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CYBER SECURITY COURSES -->
+  <section class="section cat-section" data-cat="cybersec">
+    <div class="container">
+      <div class="cat-header">
+        <h2 class="cat-title"><em>C</em>yber Security</h2>
+        <a href="#" class="see-all">See all <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+      </div>
+      <div class="courses-row">
+        <div class="course-tile">
+          <img src="images/img16.png" alt="Ethical Hacking"/>
+          <div class="tile-info">
+            <h4>Ethical Hacking</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$75</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img18.png" alt="Network Security"/>
+          <div class="tile-info">
+            <h4>Network Security</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$70</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img17.png" alt="Cyber Security for Work"/>
+          <div class="tile-info">
+            <h4>Cyber Security for Work</h4>
+            <div class="tile-stars">★★★★☆</div>
+            <span class="tile-price">$60</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img15.png" alt="Cyber Security Basics"/>
+          <div class="tile-info">
+            <h4>Cyber Security Basics</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$50</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT WRITING COURSES -->
+  <section class="section cat-section" data-cat="content">
+    <div class="container">
+      <div class="cat-header">
+        <h2 class="cat-title"><em>C</em>ontent Writing</h2>
+        <a href="#" class="see-all">See all <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+      </div>
+      <div class="courses-row">
+        <div class="course-tile">
+          <img src="images/img19.png" alt="Content Writing Basics"/>
+          <div class="tile-info">
+            <h4>Content Writing Basics</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$35</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img20.png" alt="SEO Writing"/>
+          <div class="tile-info">
+            <h4>SEO Writing</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$40</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img21.png" alt="Blog & Article Writing"/>
+          <div class="tile-info">
+            <h4>Blog &amp; Article Writing</h4>
+            <div class="tile-stars">★★★★☆</div>
+            <span class="tile-price">$35</span>
+          </div>
+        </div>
+        <div class="course-tile">
+          <img src="images/img22.png" alt="Copywriting & Marketing"/>
+          <div class="tile-info">
+            <h4>Copywriting &amp; Marketing</h4>
+            <div class="tile-stars">★★★★★</div>
+            <span class="tile-price">$45</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to start your learning journey?</h2>
+        <p>Join hundreds of students already growing their skills with Shifra.</p>
+      </div>
+      <a href="contact.html" class="btn btn-white">Register Now <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Shifra Logo" class="footer-logo"/>
+        <p>Empowering learners across the Arab world with quality digital education.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-envelope"></i> info@shifra.com</p>
+        <p><i class="fa-solid fa-phone"></i> +972 59 000 0000</p>
+        <p><i class="fa-solid fa-location-dot"></i> Palestine, West Bank</p>
+      </div>
+      <div class="footer-social-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"/></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="#" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram"/></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Shifra Training Center – All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

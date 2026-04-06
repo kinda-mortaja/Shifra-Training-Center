@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Shifra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Shifra Logo" class="logo-icon"/>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Explore</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Notifications"><i class="fa-solid fa-bell"></i></button>
+        <div class="avatar-btn" title="Profile">A</div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="section-badge">Say Hello</span>
+        <h2 class="section-title" style="text-align:left; margin-bottom:16px;">Get In Touch</h2>
+        <p>Have a question or want to learn more about our courses? We'd love to hear from you. Reach out and our team will respond as soon as possible.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <p>info@shifra.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <p>+972 59 000 0000</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Location</strong>
+              <p>Palestine, West Bank</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"/></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="#" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram"/></a>
+        </div>
+      </div>
+      <div class="contact-form-wrapper">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="John" required/>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Doe" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Course Inquiry" required/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <i class="fa-solid fa-circle-check"></i> Message sent successfully! We'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to start your learning journey?</h2>
+        <p>Join hundreds of students already growing their skills with Shifra.</p>
+      </div>
+      <a href="courses.html" class="btn btn-white">Register Now <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Shifra Logo" class="footer-logo"/>
+        <p>Empowering learners across the Arab world with quality digital education.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-envelope"></i> info@shifra.com</p>
+        <p><i class="fa-solid fa-phone"></i> +972 59 000 0000</p>
+        <p><i class="fa-solid fa-location-dot"></i> Palestine, West Bank</p>
+      </div>
+      <div class="footer-social-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"/></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="#" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram"/></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Shifra Training Center – All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

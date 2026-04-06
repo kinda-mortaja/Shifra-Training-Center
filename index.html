@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shifra – Learn, Grow Your Skills</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Shifra Logo" class="logo-icon"/>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Explore</a></li>
+        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Notifications"><i class="fa-solid fa-bell"></i></button>
+        <div class="avatar-btn" title="Profile">A</div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-bolt"></i> Trusted by 250+ Students</span>
+        <h1 class="hero-title">
+          Learn, Grow Your Skills,
+          and Start Your Journey
+          with <span class="brand-f">Shifra</span>
+        </h1>
+        <p class="hero-desc">
+          Discover high-quality training courses in technology, design,
+          business, and languages — guided by expert instructors and
+          certified programs that boost your career.
+        </p>
+        <div class="hero-btns">
+          <a href="courses.html" class="btn btn-primary">Explore Courses <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="about.html" class="btn btn-ghost">Learn More</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>+250</strong><span>Students</span></div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat"><strong>+100</strong><span>Courses</span></div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat"><strong>+15</strong><span>Instructors</span></div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-student.png" alt="Student learning at Shifra" />
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section class="section offers">
+    <div class="container">
+      <span class="section-badge">What We Offer</span>
+      <h2 class="section-title">Everything You Need to Succeed</h2>
+      <p class="section-subtitle">Built for your future, designed for real-world results</p>
+      <div class="offers-grid">
+        <div class="offer-card">
+          <div class="offer-icon online"><i class="fa-solid fa-laptop"></i></div>
+          <h3>Online Courses</h3>
+          <p>Learn anytime, anywhere with courses designed to build practical skills and real-world experience.</p>
+        </div>
+        <div class="offer-card">
+          <div class="offer-icon trainer"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3>Expert Trainers</h3>
+          <p>Learn from industry professionals who understand what it takes and know how to make learning engaging.</p>
+        </div>
+        <div class="offer-card">
+          <div class="offer-icon lifetime"><i class="fa-solid fa-infinity"></i></div>
+          <h3>Lifetime Access</h3>
+          <p>Once you enroll, the course is yours forever — unlimited access to all content and future updates.</p>
+        </div>
+        <div class="offer-card">
+          <div class="offer-icon cert"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certificates</h3>
+          <p>Earn recognized certificates to boost your career and showcase your verified skills to employers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED COURSES -->
+  <section class="section featured-courses">
+    <div class="container">
+      <span class="section-badge">Top Picks</span>
+      <h2 class="section-title">Our Featured Courses</h2>
+      <p class="section-subtitle">Start with the most popular courses on the platform</p>
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-thumb">
+            <img src="images/ux-design.png" alt="UI/UX Design Course" />
+            <span class="course-badge">Popular</span>
+          </div>
+          <div class="course-info">
+            <span class="course-tag">Design</span>
+            <h3>UI/UX Fundamentals</h3>
+            <p>Design modern, user-friendly interfaces that deliver smooth and delightful digital experiences.</p>
+            <div class="course-footer">
+              <span class="course-price">$55</span>
+              <a href="course-detail.html" class="btn btn-outline-sm">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-thumb">
+            <img src="images/feature4.png" alt="Digital Marketing Course" />
+          </div>
+          <div class="course-info">
+            <span class="course-tag">Marketing</span>
+            <h3>Digital Marketing</h3>
+            <p>Learn smart online strategies to grow brands and connect with your target audience effectively.</p>
+            <div class="course-footer">
+              <span class="course-price">$60</span>
+              <a href="courses.html" class="btn btn-outline-sm">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-thumb">
+            <img src="images/course-banner.png" alt="Web Development Course" />
+            <span class="course-badge new">New</span>
+          </div>
+          <div class="course-info">
+            <span class="course-tag">Development</span>
+            <h3>Web Development</h3>
+            <p>Build responsive and dynamic websites using the latest web technologies and best practices.</p>
+            <div class="course-footer">
+              <span class="course-price">$70</span>
+              <a href="courses.html" class="btn btn-outline-sm">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-thumb">
+            <img src="images/feature3.png" alt="Cyber Security Course" />
+          </div>
+          <div class="course-info">
+            <span class="course-tag">Security</span>
+            <h3>Cyber Security</h3>
+            <p>Protect data and systems with practical skills to defend against real-world cyber threats.</p>
+            <div class="course-footer">
+              <span class="course-price">$75</span>
+              <a href="courses.html" class="btn btn-outline-sm">View Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="courses.html" class="btn btn-primary">Browse All Courses <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE SHIFRA -->
+  <section class="section why-shifra">
+    <div class="container">
+      <span class="section-badge">Why Shifra?</span>
+      <h2 class="section-title">What Sets Us Apart</h2>
+      <p class="section-subtitle">We built Shifra differently — for real learners, with real goals</p>
+      <div class="why-grid">
+        <div class="why-card">
+          <img src="images/hero-illustration.png" alt="Expert Instructors" class="why-img"/>
+          <div class="why-badge yellow"><i class="fa-solid fa-star"></i> Expert Instructors</div>
+        </div>
+        <div class="why-card">
+          <img src="images/recording.png" alt="Interactive Content" class="why-img"/>
+          <div class="why-badge blue"><i class="fa-solid fa-bolt"></i> Interactive Content</div>
+        </div>
+        <div class="why-card">
+          <img src="images/customer-service.png" alt="Full Support" class="why-img"/>
+          <div class="why-badge green"><i class="fa-solid fa-shield-halved"></i> Full Technical Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <span class="section-badge">Reviews</span>
+      <h2 class="section-title">What Our Students Say</h2>
+      <p class="section-subtitle">Real words from real learners who transformed their careers</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <img src="images/student2.png" alt="Student review" class="testimonial-avatar"/>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"The lessons were clear and easy to follow. I understood the topics much faster than expected."</p>
+          <strong class="reviewer-name">Nour S.</strong>
+        </div>
+        <div class="testimonial-card">
+          <img src="images/team1.png" alt="Student review" class="testimonial-avatar"/>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"This platform made learning fun and simple. I truly noticed a big improvement in my skills."</p>
+          <strong class="reviewer-name">Kareem M.</strong>
+        </div>
+        <div class="testimonial-card">
+          <img src="images/student1.png" alt="Student review" class="testimonial-avatar"/>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"I love the flexibility to revisit the courses anytime I need to refresh my knowledge."</p>
+          <strong class="reviewer-name">Lina H.</strong>
+        </div>
+        <div class="testimonial-card">
+          <img src="images/team3.png" alt="Student review" class="testimonial-avatar"/>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"This experience completely changed how I view learning. I feel more confident now."</p>
+          <strong class="reviewer-name">Ahmed R.</strong>
+        </div>
+        <div class="testimonial-card">
+          <img src="images/student4.png" alt="Student review" class="testimonial-avatar"/>
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"The content is well structured and very practical. It feels like learning directly from an expert."</p>
+          <strong class="reviewer-name">Sara K.</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to start your learning journey?</h2>
+        <p>Join hundreds of students already growing their skills with Shifra.</p>
+      </div>
+      <a href="courses.html" class="btn btn-white">Register Now <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Shifra Logo" class="footer-logo"/>
+        <p>Empowering learners across the Arab world with quality digital education.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-envelope"></i> info@shifra.com</p>
+        <p><i class="fa-solid fa-phone"></i> +972 59 000 0000</p>
+        <p><i class="fa-solid fa-location-dot"></i> Palestine, West Bank</p>
+      </div>
+      <div class="footer-social-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"/></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"/></a>
+          <a href="#" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram"/></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Shifra Training Center – All Rights Reserved</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
